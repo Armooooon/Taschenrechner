@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.1.0/math.min.js"></script>
+</head>
+<body>
+    <div id="calculator">
+        <input id="display" readonly>
+        <div id="calcButtons">
+            <button onclick="addNumberOnDisplay('/')" class="btn btn-calc">/</button>
+            <button onclick="addNumberOnDisplay('7')" class="btn btn-calc">7</button>
+            <button onclick="addNumberOnDisplay('8')" class="btn btn-calc">8</button>
+            <button onclick="addNumberOnDisplay('9')" class="btn btn-calc">9</button>
+            <button onclick="addNumberOnDisplay('*')" class="btn btn-calc">*</button>
+            <button onclick="addNumberOnDisplay('4')" class="btn btn-calc">4</button>
+            <button onclick="addNumberOnDisplay('5')" class="btn btn-calc">5</button>
+            <button onclick="addNumberOnDisplay('6')" class="btn btn-calc">6</button>
+            <button onclick="addNumberOnDisplay('+')" class="btn btn-calc">+</button>
+            <button onclick="addNumberOnDisplay('1')" class="btn btn-calc">1</button>
+            <button onclick="addNumberOnDisplay('2')" class="btn btn-calc">2</button>
+            <button onclick="addNumberOnDisplay('3')" class="btn btn-calc">3</button>
+            <button onclick="addNumberOnDisplay('-')" class="btn btn-calc">-</button>
+            <button onclick="ClearNumbOnDisplay('C')" class="btn btn-calc">C</button>
+            <button onclick="addNumberOnDisplay('.')" class="btn btn-calc">.</button>
+            <button onclick="ShwResultOnDisplay('=')" class="btn btn-calc">=</button>
+           
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+  
+</html>
